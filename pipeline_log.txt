@@ -1,0 +1,89 @@
+2026-03-28 14:05:59,406 [INFO] Starting Data Cleaning & Deduplication...
+2026-03-28 14:05:59,889 [INFO] Loaded 15 raw articles.
+2026-03-28 14:05:59,890 [INFO] Running MinHash deduplication on 15 articles...
+2026-03-28 14:05:59,925 [INFO] 
+Data Quality Report
+===================
+Initial Articles: 15
+Exact URL Duplicates Removed: 0
+MinHash Body Duplicates Removed: 0
+Invalid/Unparseable Dates: 0
+Articles with <50 Words: 0
+Final Cleaned Articles: 15
+===================
+2026-03-28 14:05:59,925 [INFO] Saved cleaned data to /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/cleaned/articles_cleaned.json
+2026-03-28 14:05:59,926 [INFO] Data Cleaning complete.
+2026-03-28 14:05:59,926 [INFO] Starting NLP & Sentiment Analysis...
+2026-03-28 14:06:04,727 [INFO] Loaded 15 articles for NLP processing.
+2026-03-28 14:06:04,735 [INFO] Loading Transformer model...
+2026-03-28 14:06:04,974 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:04,984 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/config.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:05,229 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-28 14:06:05,230 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 35500.05it/s]
+[1mRobertaForSequenceClassification LOAD REPORT[0m from: cardiffnlp/twitter-roberta-base-sentiment
+Key                             | Status     |  | 
+--------------------------------+------------+--+-
+roberta.embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-03-28 14:06:05,452 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment "HTTP/1.1 200 OK"
+2026-03-28 14:06:05,916 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/main "HTTP/1.1 200 OK"
+2026-03-28 14:06:06,441 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-28 14:06:06,679 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/refs%2Fpr%2F19 "HTTP/1.1 200 OK"
+2026-03-28 14:06:06,857 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-28 14:06:06,885 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-28 14:06:07,070 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-28 14:06:07,155 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors "HTTP/1.1 302 Found"
+2026-03-28 14:06:10,837 [INFO] NLP processing complete. Saved to /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/cleaned/articles_nlp.json
+2026-03-28 14:06:10,848 [INFO] NLP & Sentiment Analysis complete.
+2026-03-28 14:06:10,848 [INFO] Starting Topic Modeling...
+2026-03-28 14:06:19,479 [INFO] Loaded 15 articles for Topic Modeling.
+2026-03-28 14:06:19,479 [INFO] Initializing SentenceTransformer & BERTopic...
+2026-03-28 14:06:19,479 [INFO] Use pytorch device_name: mps
+2026-03-28 14:06:19,479 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-28 14:06:19,702 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:19,713 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:19,946 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:19,963 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:20,174 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:20,186 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:20,395 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:20,409 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-28 14:06:20,619 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:20,627 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:20,836 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:20,849 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:21,058 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-28 14:06:21,267 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:21,280 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4829.99it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-03-28 14:06:21,579 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:21,589 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:21,797 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:21,809 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:22,021 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-28 14:06:22,232 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-28 14:06:22,490 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 14:06:22,501 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-28 14:06:22,713 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-28 14:06:23,053 [INFO] Fitting BERTopic model (this may take a minute)...
+2026-03-28 14:06:30,044 [INFO] Topic Modeling complete. Saved to /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/cleaned/articles_topic.json
+2026-03-28 14:06:30,044 [INFO] Topic Modeling complete.
+2026-03-28 14:06:30,044 [INFO] Starting Event Analysis & Database Export...
+2026-03-28 14:06:30,046 [INFO] Loading articles into Pandas DataFrame...
+2026-03-28 14:06:30,052 [INFO] Generating daily sentiment aggregations...
+2026-03-28 14:06:30,059 [INFO] Calculating event comparison metrics (T-Tests)...
+2026-03-28 14:06:30,065 [INFO] Exporting to database: /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/db/app.db...
+2026-03-28 14:06:30,075 [INFO] Export completed successfully. Database is ready for Power BI.
+2026-03-28 14:06:30,075 [INFO] Event Analysis & Export complete.
+2026-03-28 14:06:30,075 [INFO] Pipeline Execution Successfully Completed.

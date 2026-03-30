@@ -1,0 +1,11 @@
+2026-03-28 16:36:24,349 [INFO] --- Starting REAL collection for Tech Sell-off ---
+2026-03-28 16:36:32,152 [INFO] Fetching 20240725000000 - 0/5000 for Tech Sell-off
+2026-03-28 16:36:39,174 [INFO] Fetching 20240725030000 - 561/5000 for Tech Sell-off
+2026-03-28 16:36:43,153 [WARNING] Failed to fetch http://data.gdeltproject.org/gdeltv2/20240725060000.gkg.csv.zip: 'utf-8' codec can't decode byte 0xa0 in position 51560: invalid start byte
+2026-03-28 16:36:43,154 [INFO] Fetching 20240725060000 - 1102/5000 for Tech Sell-off
+2026-03-28 16:36:48,907 [INFO] Fetching 20240725090000 - 1102/5000 for Tech Sell-off
+2026-03-28 16:36:54,975 [INFO] Fetching 20240725120000 - 1513/5000 for Tech Sell-off
+2026-03-28 16:37:01,514 [INFO] Fetching 20240725150000 - 2060/5000 for Tech Sell-off
+2026-03-28 16:37:09,971 [INFO] Fetching 20240725180000 - 2683/5000 for Tech Sell-off
+2026-03-28 16:37:17,086 [INFO] Fetching 20240725210000 - 3294/5000 for Tech Sell-off
+2026-03-28 16:37:24,816 [INFO] Fetching 20240726000000 - 3855/5000 for Tech Sell-off

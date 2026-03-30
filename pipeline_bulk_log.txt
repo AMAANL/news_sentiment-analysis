@@ -1,0 +1,57 @@
+2026-03-28 14:24:03,018 [INFO] Phase 1: GDELT Bulk URL Collection...
+2026-03-28 14:24:03,597 [INFO] Targeting 15000 articles across up to 300 GDELT files
+2026-03-28 14:24:03,597 [INFO] Fetching 20260328084500 — collected so far: 0
+2026-03-28 14:24:05,769 [INFO] Fetching 20260328083000 — collected so far: 227
+2026-03-28 14:24:08,046 [INFO] Fetching 20260328081500 — collected so far: 459
+2026-03-28 14:24:10,143 [INFO] Fetching 20260328080000 — collected so far: 685
+2026-03-28 14:24:11,797 [INFO] Fetching 20260328074500 — collected so far: 813
+2026-03-28 14:24:14,216 [INFO] Fetching 20260328073000 — collected so far: 995
+2026-03-28 14:24:16,539 [INFO] Fetching 20260328071500 — collected so far: 1253
+2026-03-28 14:24:18,873 [INFO] Fetching 20260328070000 — collected so far: 1449
+2026-03-28 14:24:21,252 [INFO] Fetching 20260328064500 — collected so far: 1663
+2026-03-28 14:24:23,856 [INFO] Fetching 20260328063000 — collected so far: 1931
+2026-03-28 14:24:27,453 [INFO] Fetching 20260328061500 — collected so far: 2133
+2026-03-28 14:24:29,673 [INFO] Fetching 20260328060000 — collected so far: 2354
+2026-03-28 14:24:32,365 [INFO] Fetching 20260328054500 — collected so far: 2564
+2026-03-28 14:24:34,696 [INFO] Fetching 20260328053000 — collected so far: 2792
+2026-03-28 14:24:36,655 [INFO] Fetching 20260328051500 — collected so far: 2958
+2026-03-28 14:24:38,569 [INFO] Fetching 20260328050000 — collected so far: 3141
+2026-03-28 14:24:40,674 [INFO] Fetching 20260328044500 — collected so far: 3329
+2026-03-28 14:24:42,918 [INFO] Fetching 20260328043000 — collected so far: 3548
+2026-03-28 14:24:45,248 [INFO] Fetching 20260328041500 — collected so far: 3788
+2026-03-28 14:24:47,519 [INFO] Fetching 20260328040000 — collected so far: 3986
+2026-03-28 14:24:49,673 [INFO] Fetching 20260328034500 — collected so far: 4203
+2026-03-28 14:24:51,983 [INFO] Fetching 20260328033000 — collected so far: 4446
+2026-03-28 14:24:54,694 [INFO] Fetching 20260328031500 — collected so far: 4738
+2026-03-28 14:24:58,162 [INFO] Fetching 20260328030000 — collected so far: 4962
+2026-03-28 14:25:01,521 [INFO] Fetching 20260328024500 — collected so far: 5146
+2026-03-28 14:25:03,819 [INFO] Fetching 20260328023000 — collected so far: 5375
+2026-03-28 14:25:06,280 [INFO] Fetching 20260328021500 — collected so far: 5603
+2026-03-28 14:25:08,570 [INFO] Fetching 20260328020000 — collected so far: 5836
+2026-03-28 14:25:11,489 [INFO] Fetching 20260328014500 — collected so far: 6093
+2026-03-28 14:25:14,522 [INFO] Fetching 20260328013000 — collected so far: 6395
+2026-03-28 14:25:19,029 [INFO] Fetching 20260328011500 — collected so far: 6742
+2026-03-28 14:25:23,649 [INFO] Fetching 20260328010000 — collected so far: 7121
+2026-03-28 14:25:28,318 [INFO] Fetching 20260328004500 — collected so far: 7482
+2026-03-28 14:25:31,887 [INFO] Fetching 20260328003000 — collected so far: 7822
+2026-03-28 14:25:36,823 [INFO] Fetching 20260328001500 — collected so far: 8171
+2026-03-28 14:25:40,501 [INFO] Fetching 20260328000000 — collected so far: 8518
+2026-03-28 14:25:44,086 [INFO] Fetching 20260327234500 — collected so far: 8906
+2026-03-28 14:25:49,433 [INFO] Fetching 20260327233000 — collected so far: 9366
+2026-03-28 14:25:53,177 [INFO] Fetching 20260327231500 — collected so far: 9782
+2026-03-28 14:25:57,337 [INFO] Fetching 20260327230000 — collected so far: 10250
+2026-03-28 14:26:01,993 [INFO] Fetching 20260327224500 — collected so far: 10803
+2026-03-28 14:26:06,445 [INFO] Fetching 20260327223000 — collected so far: 11306
+2026-03-28 14:26:10,535 [INFO] Fetching 20260327221500 — collected so far: 11771
+2026-03-28 14:26:14,676 [INFO] Fetching 20260327220000 — collected so far: 12256
+2026-03-28 14:26:19,040 [INFO] Fetching 20260327214500 — collected so far: 12753
+2026-03-28 14:26:23,306 [INFO] Fetching 20260327213000 — collected so far: 13279
+2026-03-28 14:26:27,584 [INFO] Fetching 20260327211500 — collected so far: 13806
+2026-03-28 14:26:35,779 [INFO] Fetching 20260327210000 — collected so far: 14391
+2026-03-28 14:26:41,448 [INFO] Collected 15006 unique relevant URLs from 48 files
+2026-03-28 14:26:41,668 [INFO] Phase 1 complete: 15006 URLs from 48 files.
+2026-03-28 14:26:41,668 [INFO] Phase 2: Scraping article bodies (this will take a while)...
+2026-03-28 14:26:41,989 [INFO] Scraping bodies: 0/15000 — scraped: 0 — failed: 0
+2026-03-28 14:28:42,332 [INFO] Scraping bodies: 100/15000 — scraped: 78 — failed: 21
+2026-03-28 14:30:55,574 [INFO] Scraping bodies: 200/15000 — scraped: 159 — failed: 37
+2026-03-28 14:33:22,108 [INFO] Scraping bodies: 300/15000 — scraped: 248 — failed: 47

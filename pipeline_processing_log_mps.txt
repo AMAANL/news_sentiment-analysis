@@ -1,0 +1,221 @@
+2026-03-28 15:20:28,732 [INFO] Starting NLP & Sentiment Analysis...
+2026-03-28 15:20:35,110 [INFO] Loaded 7393 articles for NLP processing.
+2026-03-28 15:20:35,163 [INFO] Loading Transformer model...
+2026-03-28 15:20:35,398 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 15:20:35,410 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/config.json "HTTP/1.1 200 OK"
+2026-03-28 15:20:35,648 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-28 15:20:35,648 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 9578.21it/s]
+[1mRobertaForSequenceClassification LOAD REPORT[0m from: cardiffnlp/twitter-roberta-base-sentiment
+Key                             | Status     |  | 
+--------------------------------+------------+--+-
+roberta.embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-03-28 15:20:35,858 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment "HTTP/1.1 200 OK"
+2026-03-28 15:20:36,044 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-28 15:20:36,083 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/main "HTTP/1.1 200 OK"
+2026-03-28 15:20:36,254 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-28 15:20:36,324 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-28 15:20:36,561 [INFO] HTTP Request: GET https://huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/refs%2Fpr%2F19 "HTTP/1.1 200 OK"
+2026-03-28 15:20:36,787 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-28 15:20:37,023 [INFO] HTTP Request: HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors "HTTP/1.1 302 Found"
+2026-03-28 15:20:58,501 [INFO] Processed 50/7393 articles.
+2026-03-28 15:21:12,348 [INFO] Processed 100/7393 articles.
+2026-03-28 15:21:29,171 [INFO] Processed 150/7393 articles.
+2026-03-28 15:21:41,548 [INFO] Processed 200/7393 articles.
+2026-03-28 15:21:56,488 [INFO] Processed 250/7393 articles.
+2026-03-28 15:22:20,054 [INFO] Processed 300/7393 articles.
+2026-03-28 15:22:37,390 [INFO] Processed 350/7393 articles.
+2026-03-28 15:22:48,320 [INFO] Processed 400/7393 articles.
+2026-03-28 15:23:03,772 [INFO] Processed 450/7393 articles.
+2026-03-28 15:23:17,739 [INFO] Processed 500/7393 articles.
+2026-03-28 15:23:30,042 [INFO] Processed 550/7393 articles.
+2026-03-28 15:23:41,655 [INFO] Processed 600/7393 articles.
+2026-03-28 15:23:54,242 [INFO] Processed 650/7393 articles.
+2026-03-28 15:24:07,316 [INFO] Processed 700/7393 articles.
+2026-03-28 15:24:19,823 [INFO] Processed 750/7393 articles.
+2026-03-28 15:24:31,035 [INFO] Processed 800/7393 articles.
+2026-03-28 15:24:43,332 [INFO] Processed 850/7393 articles.
+2026-03-28 15:24:55,528 [INFO] Processed 900/7393 articles.
+2026-03-28 15:25:13,439 [INFO] Processed 950/7393 articles.
+2026-03-28 15:25:27,796 [INFO] Processed 1000/7393 articles.
+2026-03-28 15:25:40,942 [INFO] Processed 1050/7393 articles.
+2026-03-28 15:25:55,029 [INFO] Processed 1100/7393 articles.
+2026-03-28 15:26:11,722 [INFO] Processed 1150/7393 articles.
+2026-03-28 15:26:21,209 [INFO] Processed 1200/7393 articles.
+2026-03-28 15:26:44,580 [INFO] Processed 1250/7393 articles.
+2026-03-28 15:27:12,292 [INFO] Processed 1300/7393 articles.
+2026-03-28 15:27:37,811 [INFO] Processed 1350/7393 articles.
+2026-03-28 15:28:01,356 [INFO] Processed 1400/7393 articles.
+2026-03-28 15:28:26,338 [INFO] Processed 1450/7393 articles.
+2026-03-28 15:28:42,339 [INFO] Processed 1500/7393 articles.
+2026-03-28 15:28:58,195 [INFO] Processed 1550/7393 articles.
+2026-03-28 15:29:13,278 [INFO] Processed 1600/7393 articles.
+2026-03-28 15:29:29,694 [INFO] Processed 1650/7393 articles.
+2026-03-28 15:29:45,868 [INFO] Processed 1700/7393 articles.
+2026-03-28 15:29:59,524 [INFO] Processed 1750/7393 articles.
+2026-03-28 15:30:19,742 [INFO] Processed 1800/7393 articles.
+2026-03-28 15:30:36,833 [INFO] Processed 1850/7393 articles.
+2026-03-28 15:31:07,218 [INFO] Processed 1900/7393 articles.
+2026-03-28 15:31:24,402 [INFO] Processed 1950/7393 articles.
+2026-03-28 15:31:40,592 [INFO] Processed 2000/7393 articles.
+2026-03-28 15:31:52,733 [INFO] Processed 2050/7393 articles.
+2026-03-28 15:32:06,909 [INFO] Processed 2100/7393 articles.
+2026-03-28 15:32:22,141 [INFO] Processed 2150/7393 articles.
+2026-03-28 15:32:37,517 [INFO] Processed 2200/7393 articles.
+2026-03-28 15:33:42,932 [INFO] Processed 2250/7393 articles.
+2026-03-28 15:34:16,047 [INFO] Processed 2300/7393 articles.
+2026-03-28 15:34:40,135 [INFO] Processed 2350/7393 articles.
+2026-03-28 15:35:10,874 [INFO] Processed 2400/7393 articles.
+2026-03-28 15:35:34,579 [INFO] Processed 2450/7393 articles.
+2026-03-28 15:35:49,550 [INFO] Processed 2500/7393 articles.
+2026-03-28 15:36:05,030 [INFO] Processed 2550/7393 articles.
+2026-03-28 15:36:24,974 [INFO] Processed 2600/7393 articles.
+2026-03-28 15:36:39,935 [INFO] Processed 2650/7393 articles.
+2026-03-28 15:36:57,627 [INFO] Processed 2700/7393 articles.
+2026-03-28 15:37:11,371 [INFO] Processed 2750/7393 articles.
+2026-03-28 15:37:23,201 [INFO] Processed 2800/7393 articles.
+2026-03-28 15:37:55,551 [INFO] Processed 2850/7393 articles.
+2026-03-28 15:38:18,225 [INFO] Processed 2900/7393 articles.
+2026-03-28 15:38:32,824 [INFO] Processed 2950/7393 articles.
+2026-03-28 15:39:05,010 [INFO] Processed 3000/7393 articles.
+2026-03-28 15:39:23,143 [INFO] Processed 3050/7393 articles.
+2026-03-28 15:39:37,755 [INFO] Processed 3100/7393 articles.
+2026-03-28 15:40:00,041 [INFO] Processed 3150/7393 articles.
+2026-03-28 15:40:14,207 [INFO] Processed 3200/7393 articles.
+2026-03-28 15:40:30,707 [INFO] Processed 3250/7393 articles.
+2026-03-28 15:40:47,090 [INFO] Processed 3300/7393 articles.
+2026-03-28 15:41:08,123 [INFO] Processed 3350/7393 articles.
+2026-03-28 15:41:27,933 [INFO] Processed 3400/7393 articles.
+2026-03-28 15:41:58,489 [INFO] Processed 3450/7393 articles.
+2026-03-28 15:42:13,642 [INFO] Processed 3500/7393 articles.
+2026-03-28 15:42:37,385 [INFO] Processed 3550/7393 articles.
+2026-03-28 15:42:59,261 [INFO] Processed 3600/7393 articles.
+2026-03-28 15:43:28,780 [INFO] Processed 3650/7393 articles.
+2026-03-28 15:43:47,026 [INFO] Processed 3700/7393 articles.
+2026-03-28 15:44:08,237 [INFO] Processed 3750/7393 articles.
+2026-03-28 15:44:27,049 [INFO] Processed 3800/7393 articles.
+2026-03-28 15:44:45,866 [INFO] Processed 3850/7393 articles.
+2026-03-28 15:45:02,178 [INFO] Processed 3900/7393 articles.
+2026-03-28 15:45:21,337 [INFO] Processed 3950/7393 articles.
+2026-03-28 15:45:42,135 [INFO] Processed 4000/7393 articles.
+2026-03-28 15:46:03,663 [INFO] Processed 4050/7393 articles.
+2026-03-28 15:46:43,856 [INFO] Processed 4100/7393 articles.
+2026-03-28 15:47:13,997 [INFO] Processed 4150/7393 articles.
+2026-03-28 15:47:37,153 [INFO] Processed 4200/7393 articles.
+2026-03-28 15:48:04,100 [INFO] Processed 4250/7393 articles.
+2026-03-28 15:48:25,962 [INFO] Processed 4300/7393 articles.
+2026-03-28 15:48:50,244 [INFO] Processed 4350/7393 articles.
+2026-03-28 15:49:12,901 [INFO] Processed 4400/7393 articles.
+2026-03-28 15:49:31,076 [INFO] Processed 4450/7393 articles.
+2026-03-28 15:49:54,810 [INFO] Processed 4500/7393 articles.
+2026-03-28 15:50:09,478 [INFO] Processed 4550/7393 articles.
+2026-03-28 15:50:25,702 [INFO] Processed 4600/7393 articles.
+2026-03-28 15:50:43,304 [INFO] Processed 4650/7393 articles.
+2026-03-28 15:51:09,973 [INFO] Processed 4700/7393 articles.
+2026-03-28 15:51:27,416 [INFO] Processed 4750/7393 articles.
+2026-03-28 15:51:50,638 [INFO] Processed 4800/7393 articles.
+2026-03-28 15:52:14,204 [INFO] Processed 4850/7393 articles.
+2026-03-28 15:52:31,631 [INFO] Processed 4900/7393 articles.
+2026-03-28 15:53:28,109 [INFO] Processed 4950/7393 articles.
+2026-03-28 15:53:46,833 [INFO] Processed 5000/7393 articles.
+2026-03-28 15:54:12,131 [INFO] Processed 5050/7393 articles.
+2026-03-28 15:54:46,311 [INFO] Processed 5100/7393 articles.
+2026-03-28 15:55:08,933 [INFO] Processed 5150/7393 articles.
+2026-03-28 15:55:20,639 [INFO] Processed 5200/7393 articles.
+2026-03-28 15:55:32,377 [INFO] Processed 5250/7393 articles.
+2026-03-28 15:55:46,070 [INFO] Processed 5300/7393 articles.
+2026-03-28 15:56:04,447 [INFO] Processed 5350/7393 articles.
+2026-03-28 15:56:42,826 [INFO] Processed 5400/7393 articles.
+2026-03-28 15:56:59,403 [INFO] Processed 5450/7393 articles.
+2026-03-28 15:57:18,812 [INFO] Processed 5500/7393 articles.
+2026-03-28 15:57:33,293 [INFO] Processed 5550/7393 articles.
+2026-03-28 15:58:03,782 [INFO] Processed 5600/7393 articles.
+2026-03-28 15:58:29,694 [INFO] Processed 5650/7393 articles.
+2026-03-28 15:58:42,922 [INFO] Processed 5700/7393 articles.
+2026-03-28 15:59:01,349 [INFO] Processed 5750/7393 articles.
+2026-03-28 15:59:25,433 [INFO] Processed 5800/7393 articles.
+2026-03-28 15:59:43,605 [INFO] Processed 5850/7393 articles.
+2026-03-28 16:00:08,776 [INFO] Processed 5900/7393 articles.
+2026-03-28 16:00:27,741 [INFO] Processed 5950/7393 articles.
+2026-03-28 16:00:47,959 [INFO] Processed 6000/7393 articles.
+2026-03-28 16:01:01,108 [INFO] Processed 6050/7393 articles.
+2026-03-28 16:01:15,583 [INFO] Processed 6100/7393 articles.
+2026-03-28 16:01:38,471 [INFO] Processed 6150/7393 articles.
+2026-03-28 16:02:02,477 [INFO] Processed 6200/7393 articles.
+2026-03-28 16:02:25,062 [INFO] Processed 6250/7393 articles.
+2026-03-28 16:02:49,034 [INFO] Processed 6300/7393 articles.
+2026-03-28 16:03:24,216 [INFO] Processed 6350/7393 articles.
+2026-03-28 16:03:38,846 [INFO] Processed 6400/7393 articles.
+2026-03-28 16:03:52,834 [INFO] Processed 6450/7393 articles.
+2026-03-28 16:04:26,136 [INFO] Processed 6500/7393 articles.
+2026-03-28 16:04:44,814 [INFO] Processed 6550/7393 articles.
+2026-03-28 16:05:05,154 [INFO] Processed 6600/7393 articles.
+2026-03-28 16:05:19,191 [INFO] Processed 6650/7393 articles.
+2026-03-28 16:05:35,475 [INFO] Processed 6700/7393 articles.
+2026-03-28 16:05:47,515 [INFO] Processed 6750/7393 articles.
+2026-03-28 16:05:59,900 [INFO] Processed 6800/7393 articles.
+2026-03-28 16:06:13,295 [INFO] Processed 6850/7393 articles.
+2026-03-28 16:06:30,675 [INFO] Processed 6900/7393 articles.
+2026-03-28 16:06:53,865 [INFO] Processed 6950/7393 articles.
+2026-03-28 16:07:19,624 [INFO] Processed 7000/7393 articles.
+2026-03-28 16:07:38,049 [INFO] Processed 7050/7393 articles.
+2026-03-28 16:07:57,258 [INFO] Processed 7100/7393 articles.
+2026-03-28 16:08:22,661 [INFO] Processed 7150/7393 articles.
+2026-03-28 16:08:41,922 [INFO] Processed 7200/7393 articles.
+2026-03-28 16:08:54,186 [INFO] Processed 7250/7393 articles.
+2026-03-28 16:09:11,061 [INFO] Processed 7300/7393 articles.
+2026-03-28 16:09:25,560 [INFO] Processed 7350/7393 articles.
+2026-03-28 16:09:45,230 [INFO] NLP processing complete. Saved to /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/cleaned/articles_nlp.json
+2026-03-28 16:09:46,072 [INFO] NLP & Sentiment Analysis complete.
+2026-03-28 16:09:46,074 [INFO] Starting Topic Modeling...
+2026-03-28 16:10:07,284 [INFO] Loaded 7393 articles for Topic Modeling.
+2026-03-28 16:10:07,645 [INFO] Initializing SentenceTransformer & BERTopic...
+2026-03-28 16:10:07,647 [INFO] Use pytorch device_name: mps
+2026-03-28 16:10:07,647 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-28 16:10:07,998 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:08,016 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:08,249 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:08,264 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:08,474 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:08,484 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:08,695 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:08,705 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-28 16:10:08,917 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:08,931 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:09,157 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:09,171 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:09,408 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-28 16:10:09,616 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:09,627 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3980.52it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-03-28 16:10:10,013 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:10,024 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:10,281 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:10,309 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:10,736 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-28 16:10:10,949 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-28 16:10:11,372 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 16:10:11,387 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-28 16:10:11,606 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-28 16:10:14,516 [INFO] Fitting BERTopic model (this may take a minute)...
+2026-03-28 16:15:07,716 [INFO] Topic Modeling complete. Saved to /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/cleaned/articles_topic.json
+2026-03-28 16:15:07,849 [INFO] Topic Modeling complete.
+2026-03-28 16:15:07,849 [INFO] Starting Event Analysis & Database Export...
+2026-03-28 16:15:07,853 [INFO] Loading articles into Pandas DataFrame...
+2026-03-28 16:15:09,680 [INFO] Generating daily sentiment aggregations...
+2026-03-28 16:15:09,702 [INFO] Calculating event comparison metrics (T-Tests)...
+2026-03-28 16:15:09,822 [INFO] Exporting to database: /Users/amaanlakdawala/Desktop/news_sentiment/src/../data/db/app.db...
+2026-03-28 16:15:09,911 [INFO] Export completed successfully. Database is ready for Power BI.
+2026-03-28 16:15:09,922 [INFO] Event Analysis & Export complete.
+2026-03-28 16:15:09,922 [INFO] Pipeline Execution Successfully Completed.
