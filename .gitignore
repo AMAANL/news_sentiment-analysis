@@ -1,8 +1,14 @@
 venv/
 data/
+*.db
+*.csv
+*.json
 *.pyc
 __pycache__/
 *.log
+*_log.txt
 nohup.out
 .DS_Store
 .env
+.idea/
+.vscode/

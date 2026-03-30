@@ -1,4 +1,4 @@
-# 📊 News Sentiment Intelligence Dashboard
+#  News Sentiment Intelligence Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
@@ -9,7 +9,7 @@ An end-to-end data intelligence pipeline designed to scrape, clean, and analyze 
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Multi-Source Scraper**: Automated collection from GDELT (bulk historical) and GNews (real-time).
 *   **Advanced NLP Suite**: Combines VADER for baseline sentiment with **RoBERTa-based Transformers** for deep contextual analysis.
@@ -19,7 +19,7 @@ An end-to-end data intelligence pipeline designed to scrape, clean, and analyze 
 
 ---
 
-## 🏗 project Architecture
+##  project Architecture
 
 ```mermaid
 graph TD
@@ -39,7 +39,7 @@ graph TD
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
@@ -60,7 +60,7 @@ graph TD
 
 ---
 
-## 🚦 Usage
+##  Usage
 
 The pipeline is managed via a single orchestration script `run_pipeline.py`.
 
@@ -100,7 +100,7 @@ Windows users **must** install the [SQLite ODBC Driver](http://www.ch-werner.de/
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 - `src/`: Core logic (collection, NLP, modeling, cleaning).
 - `data/`: Storage for raw, cleaned, and processed datasets (ignored in Git).
@@ -109,7 +109,7 @@ Windows users **must** install the [SQLite ODBC Driver](http://www.ch-werner.de/
 
 ---
 
-## 🛡 License
+##  License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
