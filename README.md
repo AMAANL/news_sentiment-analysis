@@ -6,6 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 An end-to-end data intelligence pipeline designed to scrape, clean, and analyze global news articles. This project transforms raw unstructured text into actionable sentiment insights, topic clusters, and statistical event comparisons, perfectly optimized for Power BI visualization.
+<img width="1469" height="793" alt="Screenshot 2026-03-28 at 7 30 41 PM" src="https://github.com/user-attachments/assets/2dbb2032-085a-4e57-bd4b-64cf4d18c9c4" />
 
 ---
 
